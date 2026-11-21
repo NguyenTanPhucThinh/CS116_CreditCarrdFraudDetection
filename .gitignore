@@ -1,0 +1,23 @@
+# Thông tin đăng nhập (không bao giờ commit)
+.env
+
+
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Bản sao lưu
+*.bak
+*.backup.ipynb
+
+# Hệ điều hành và editor
+.DS_Store
+Thumbs.db
+.vscode/
+.claude/settings.local.json

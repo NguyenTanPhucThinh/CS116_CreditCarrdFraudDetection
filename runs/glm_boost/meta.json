@@ -1,0 +1,36 @@
+{
+  "model": "lgb",
+  "fe": "art",
+  "orig": 0.0,
+  "name": "glm_boost",
+  "params": "{\"num_leaves\":4,\"learning_rate\":0.03,\"feature_fraction\":0.5,\"min_child_samples\":100,\"lambda_l2\":1.0,\"n_estimators\":20000}",
+  "folds": [
+    0.9499155136077436,
+    0.9514079063084776,
+    0.955877338680934,
+    0.9517741715715912,
+    0.9458042376316423
+  ],
+  "te": "single",
+  "te_smooth": "5,20,100",
+  "keys": "full",
+  "offset": "glm",
+  "joint": "glm",
+  "key_counts": true,
+  "te_cv": 5,
+  "enc_seed": 0,
+  "hier": 0,
+  "es": "inner",
+  "seeds": 1,
+  "seed0": 0,
+  "rows": 0,
+  "cv": 0.9509251412283058,
+  "iters": [
+    770,
+    622,
+    386,
+    934,
+    229
+  ],
+  "seconds": 668
+}

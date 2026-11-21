@@ -1,0 +1,36 @@
+{
+  "model": "realmlp",
+  "fe": "emb",
+  "orig": 0.0,
+  "name": "realmlp_emb",
+  "params": "{\"n_ens\":8,\"n_epochs\":3,\"batch_size\":288,\"use_early_stopping\":false,\"val_metric_name\":\"1-auc_ovr\",\"lr\":0.073,\"wd\":0.038,\"sq_mom\":0.988,\"lr_sched\":\"flat_anneal\",\"wd_sched\":\"cos_log_15\",\"first_layer_lr_factor\":0.25,\"embedding_size\":5,\"max_one_hot_cat_size\":16,\"hidden_sizes\":[512,256,128],\"act\":\"silu\",\"p_drop\":0.05,\"p_drop_sched\":\"pow5\",\"plr_hidden_1\":16,\"plr_hidden_2\":8,\"plr_act_name\":\"gelu\",\"plr_lr_factor\":0.1151,\"plr_sigma\":0.75,\"ls_eps\":0.01,\"ls_eps_sched\":\"sqrt_cos\",\"add_front_scale\":false,\"bias_init_mode\":\"neg-uniform-dynamic-2\",\"tfms\":[\"one_hot\",\"median_center\",\"robust_scale\",\"smooth_clip\",\"embedding\",\"l2_normalize\"]}",
+  "folds": [
+    0.9488177197286158,
+    0.9504839796008299,
+    0.9545695926868774,
+    0.9500978299281087,
+    0.9429743485492064
+  ],
+  "te": "none",
+  "te_smooth": "auto",
+  "keys": "basic",
+  "offset": "none",
+  "joint": "none",
+  "key_counts": false,
+  "te_cv": 5,
+  "enc_seed": 0,
+  "hier": 0,
+  "es": "val",
+  "seeds": 1,
+  "seed0": 0,
+  "rows": 0,
+  "cv": 0.9492766782363082,
+  "iters": [
+    3,
+    3,
+    3,
+    3,
+    3
+  ],
+  "seconds": 2566
+}

@@ -1,0 +1,36 @@
+{
+  "model": "glm",
+  "fe": "art",
+  "orig": 0.0,
+  "name": "glm_art",
+  "params": "{\"splines\":8}",
+  "folds": [
+    0.9495076270423413,
+    0.9512628506356728,
+    0.9555724278286505,
+    0.9510346436720634,
+    0.9458385409181596
+  ],
+  "te": "single",
+  "te_smooth": "5,20,100",
+  "keys": "full",
+  "offset": "none",
+  "joint": "glm",
+  "key_counts": false,
+  "te_cv": 5,
+  "enc_seed": 0,
+  "hier": 0,
+  "es": "val",
+  "seeds": 1,
+  "seed0": 0,
+  "rows": 0,
+  "cv": 0.950616312350617,
+  "iters": [
+    41,
+    36,
+    41,
+    45,
+    38
+  ],
+  "seconds": 283
+}

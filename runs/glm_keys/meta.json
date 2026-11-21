@@ -1,0 +1,36 @@
+{
+  "model": "glm",
+  "fe": "raw",
+  "orig": 0.0,
+  "name": "glm_keys",
+  "params": "{\"splines\":8}",
+  "folds": [
+    0.949137934477938,
+    0.9509602794912471,
+    0.9552241469335044,
+    0.9506202916641908,
+    0.9450483255627481
+  ],
+  "te": "single",
+  "te_smooth": "20",
+  "keys": "full",
+  "offset": "none",
+  "joint": "none",
+  "key_counts": false,
+  "te_cv": 5,
+  "enc_seed": 0,
+  "hier": 0,
+  "es": "val",
+  "seeds": 1,
+  "seed0": 0,
+  "rows": 0,
+  "cv": 0.9501492765862809,
+  "iters": [
+    30,
+    30,
+    29,
+    33,
+    30
+  ],
+  "seconds": 118
+}
